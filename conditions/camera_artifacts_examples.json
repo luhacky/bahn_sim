@@ -1,0 +1,10 @@
+[
+  {"name": "glare_flare_dirt", "preset": "low_sun_glare", "cases": ["person_standing_on_track"],
+   "camera_artifacts": {"lens_flare": 1.0, "windscreen_dirt": 0.7}},
+  {"name": "rain_heavy_smear", "preset": "rain_heavy", "cases": ["person_standing_on_track"],
+   "camera_artifacts": {"rain_smear": 0.9}},
+  {"name": "overcast_smudge_dirt", "preset": "overcast", "cases": ["person_standing_on_track"],
+   "camera_artifacts": {"lens_smudge": 0.9, "windscreen_dirt": 0.5}},
+  {"name": "night_worn_camera", "preset": "night_clear", "cases": ["person_standing_on_track"],
+   "camera_artifacts": {"sensor_gain_ev": 1.5, "hot_pixels": 300, "jpeg_quality": 45, "defocus_px": 1.0}}
+]

@@ -1,0 +1,167 @@
+[
+ {
+  "name": "fog000",
+  "preset": "clear_noon",
+  "fog_percent": 0
+ },
+ {
+  "name": "fog005",
+  "preset": "clear_noon",
+  "fog_percent": 5,
+  "fog_density": 0.0013,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog010",
+  "preset": "clear_noon",
+  "fog_percent": 10,
+  "fog_density": 0.0026,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog015",
+  "preset": "clear_noon",
+  "fog_percent": 15,
+  "fog_density": 0.0039,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog020",
+  "preset": "clear_noon",
+  "fog_percent": 20,
+  "fog_density": 0.0052,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog025",
+  "preset": "clear_noon",
+  "fog_percent": 25,
+  "fog_density": 0.0065,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog030",
+  "preset": "clear_noon",
+  "fog_percent": 30,
+  "fog_density": 0.0078,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog035",
+  "preset": "clear_noon",
+  "fog_percent": 35,
+  "fog_density": 0.0091,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog040",
+  "preset": "clear_noon",
+  "fog_percent": 40,
+  "fog_density": 0.0104,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog045",
+  "preset": "clear_noon",
+  "fog_percent": 45,
+  "fog_density": 0.0117,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog050",
+  "preset": "clear_noon",
+  "fog_percent": 50,
+  "fog_density": 0.013,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog055",
+  "preset": "clear_noon",
+  "fog_percent": 55,
+  "fog_density": 0.0143,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog060",
+  "preset": "clear_noon",
+  "fog_percent": 60,
+  "fog_density": 0.0156,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog065",
+  "preset": "clear_noon",
+  "fog_percent": 65,
+  "fog_density": 0.0169,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog070",
+  "preset": "clear_noon",
+  "fog_percent": 70,
+  "fog_density": 0.0182,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog075",
+  "preset": "clear_noon",
+  "fog_percent": 75,
+  "fog_density": 0.0195,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog080",
+  "preset": "clear_noon",
+  "fog_percent": 80,
+  "fog_density": 0.0208,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog085",
+  "preset": "clear_noon",
+  "fog_percent": 85,
+  "fog_density": 0.0221,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog090",
+  "preset": "clear_noon",
+  "fog_percent": 90,
+  "fog_density": 0.0234,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog095",
+  "preset": "clear_noon",
+  "fog_percent": 95,
+  "fog_density": 0.0247,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog100",
+  "preset": "clear_noon",
+  "fog_percent": 100,
+  "fog_density": 0.026,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ }
+]

@@ -1,0 +1,19 @@
+# whitelist: only the project's code and docs go into git (scenes, renders and textures are rebuilt / downloaded by setup.py)
+/*
+!/.gitignore
+!/*.py
+!/*.md
+!/setup.bat
+!/setup.sh
+!/sbahn_sim/
+!/examples/
+!/conditions/
+!/assets/
+/assets/*
+!/assets/textures/
+/assets/textures/*
+!/assets/textures/SOURCES.md
+__pycache__/
+*.pyc
+/conditions/custom.json
+!/.gitattributes

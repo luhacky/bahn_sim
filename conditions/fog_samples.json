@@ -1,0 +1,39 @@
+[
+ {
+  "name": "fog000",
+  "preset": "clear_noon",
+  "fog_percent": 0
+ },
+ {
+  "name": "fog025",
+  "preset": "clear_noon",
+  "fog_percent": 25,
+  "fog_density": 0.0065,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog050",
+  "preset": "clear_noon",
+  "fog_percent": 50,
+  "fog_density": 0.013,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog075",
+  "preset": "clear_noon",
+  "fog_percent": 75,
+  "fog_density": 0.0195,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ },
+ {
+  "name": "fog100",
+  "preset": "clear_noon",
+  "fog_percent": 100,
+  "fog_density": 0.026,
+  "fog_top_m": 80.0,
+  "fog_patchiness": 0.0
+ }
+]
