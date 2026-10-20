@@ -19,6 +19,9 @@ import zipfile
 HERE = os.path.dirname(os.path.abspath(__file__))
 SKIP_DIRS = {"__pycache__", ".git", "tools", "out", ".idea", ".vscode"}
 SKIP_EXT = (".pyc", ".log", ".zip", ".bak", ".blend1")
+PROJECT_DIRS = {"sbahn_sim", "examples", "conditions", "assets"}
+PROJECT_EXT = (".py", ".md")
+PROJECT_FILES = {"setup.bat", "setup.sh", ".gitignore", ".gitattributes"}
 
 
 def walk(root, rel_base, skip_dirs=SKIP_DIRS):
@@ -45,8 +48,13 @@ def main():
     skip = set(SKIP_DIRS)
     if args.no_textures:
         skip.add("textures")
-    for full, rel in walk(HERE, HERE, skip):
-        files.append((full, rel))
+    # only the project's own files: other things kept in this folder (personal documents etc.) never leave it
+    for name in sorted(os.listdir(HERE)):
+        full = os.path.join(HERE, name)
+        if os.path.isdir(full) and name in PROJECT_DIRS:
+            files += list(walk(full, HERE, skip))
+        elif os.path.isfile(full) and (name.endswith(PROJECT_EXT) or name in PROJECT_FILES):
+            files.append((full, name))
     extra_dirs = list(args.with_dirs)
     if args.with_scene:
         scene = os.path.join(HERE, "out", "scene")
